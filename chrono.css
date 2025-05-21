@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0a8fe2;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: rgb(255, 0, 0);
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.scoreboard button{
+    background-color: #eceded;
+    color: #090500;
+}
+
+.team {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 25px 30px 10px rgba(0,0,0,0.2);
+}
+
+.team h2 {
+  margin-bottom: 10px;
+}
+
+.score {
+  font-size: 48px;
+  margin: 10px 0;
+  color: #07c246;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+
+}
+
+.timer {
+  font-size: 36px;
+  margin: 30px 0;
+  color: red;
+     box-shadow: 10px 15px 10px rgba(0,0,0,0.2);
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+input{
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ababbe;
+    color: #082bf3;
+    text-align: center;
+}
+
+
+#titre{
+    background-color: rgb(231, 229, 235);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+
+}
+
+.bs{
+     box-shadow: 10px 15px 10px rgba(0,0,0,0.2);
+}
+

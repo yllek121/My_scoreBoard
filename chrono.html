@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Score Match Handball</title>
+  <link rel="stylesheet" href="chrono.css">
+</head>
+<body>
+  <div id="titre">
+  <h1>HANDBALL MATCH</h1>
+   </div>
+  <div class="scoreboard">
+    <div class="team" id="teamA">
+      <input type="text" placeholder="TEAM A" class="taille" >
+      <div class="score" id="scoreA">0</div>
+      <button onclick="changeScore('A', 1)">+</button>
+      <button onclick="changeScore('A', -1)">-</button>
+    </div>
+
+    <div class="team" id="teamB">
+      <input type="text" placeholder="TEAM B" class="taille">
+      <div class="score" id="scoreB">0</div>
+      <button onclick="changeScore('B', 1)">+</button>
+      <button onclick="changeScore('B', -1)">-</button>
+    </div>
+  </div>
+
+  <div class="timer" id="timer">30:00</div>
+  <div class="controls">
+    <button  onclick="startTimer()" class="bs"><img width="50" height="50" src="https://img.icons8.com/wired/64/pot-player.png" alt="pot-player"/></button>
+    <button onclick="pauseTimer()" class="bs"><img width="50" height="50" src="https://img.icons8.com/ios/50/circled-pause.png" alt="circled-pause"/></button>
+    <button onclick="resetTimer()" class="bs"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/recurring-appointment.png" alt="recurring-appointment"/></button>
+  </div>
+
+  <script src="chrono.js"></script>
+</body>
+</html>
